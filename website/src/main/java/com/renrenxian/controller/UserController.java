@@ -273,4 +273,19 @@ public class UserController {
 	}
 	
 	
+	// 添加关注
+	@RequestMapping(value = "/addFollow")
+	@ResponseBody
+	public Map<String, Object> addFollow(
+			HttpServletRequest request,
+			@RequestParam(value = "uid", required = true) String uid,
+			@RequestParam(value = "followphone", required = true) String followphone
+			) {
+		
+		
+		
+		
+		return null;
+	}
+	
 }
