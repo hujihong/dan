@@ -23,5 +23,7 @@ public interface UserService extends BaseServiceMybatis<User,Integer> {
 	public Map<String, Object> upload(int id, MultipartFile file, String path);
 
 	public Map<String, Object> updateReplenish(User user);
+
+	public Map<String, Object> addFollow(int id, String followphone);
 	
 }

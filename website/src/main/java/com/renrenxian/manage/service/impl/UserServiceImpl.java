@@ -201,4 +201,10 @@ public class UserServiceImpl extends BaseServiceMybatisImpl<User,Integer> implem
 		return MapResult.initMap();
 	}
 	
+	
+	public Map<String, Object> addFollow(int id, String followphone){
+		
+		
+		return null;
+	}
 }
